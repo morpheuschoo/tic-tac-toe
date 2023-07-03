@@ -6,7 +6,7 @@
 #include <SFML/Graphics.hpp>
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 800), "Tic Tac Toe", sf::Style::Titlebar | sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(800, 800), "TIC-TAC-TOE", sf::Style::Titlebar | sf::Style::Close);
 
     FpsCounter fps;
     Game game;
